@@ -1,0 +1,13 @@
+{
+  "name": "colonist",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm --filter @colonist/shared test",
+    "dev:server": "pnpm --filter @colonist/server dev",
+    "dev:web": "pnpm --filter @colonist/web dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
